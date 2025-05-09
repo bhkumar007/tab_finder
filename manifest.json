@@ -1,0 +1,23 @@
+{
+  "name": "Tab Finder",
+  "author": "Bharat Kumar",
+  "version": "1.0",
+  "description": "Find the tab user is interested in and then switch to it",
+  "permissions": [
+    "*://docs.microsoft.com/*",
+    "tabs"
+  ],
+  "browser_specific_settings": {
+    "edge": {
+      "browser_action_next_to_addressbar": true
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "20": "images/color-changer20.png",
+      "40": "images/color-changer40.png"
+    },
+    "default_title": "Tab Finder",
+    "default_popup": "popup.html"
+  }
+}
